@@ -1,0 +1,77 @@
+
+.loyalty{
+    @media (min-width: 768px) {
+        padding-top: 20px;
+        padding-bottom: 60px;
+    }
+    &__card{
+        max-width: 280px;
+        height: 150px;
+        background-color: #363636;
+        border-radius: 20px;
+        margin: auto;
+        position: relative;
+        @media (min-width: 576px) {
+            max-width: 350px;
+            height: 190px;
+        }
+    }
+    &__logo{
+        position: absolute;
+        top: 10px;
+        left: 10px;
+        width: 70px;
+        height: auto;
+        @media (min-width: 576px) {
+          width: 80px;
+        }
+    }
+    &__logo2{
+        position: absolute;
+        top: 10px;
+        right: 10px;
+        width: 40px;
+        height: auto;
+        @media (min-width: 576px) {
+          width: 50px;
+        }
+    }
+    &__text{
+        position: absolute;
+        top: 40%;
+        left: 20px;
+        font-size: 24px;
+        color: white;
+        @media (min-width: 576px) {
+          font-size: 29px;
+        }
+    }
+    &__col-mar{
+        margin-top: 40px;
+        @media (min-width: 768px) {
+          margin-top: 0;
+        }
+    }
+    &__h2{
+        font-size: 22px;
+        @media (min-width: 576px) {
+          font-size: 24px;
+        }
+    }
+    &__desc{
+        font-size: 14px;
+        text-align: justify;
+        @media (min-width: 576px) {
+          font-size: 19px;
+        }
+    }
+    &__wrapper2{
+        width: 90%;
+        margin: auto;
+    }
+    &__wrapper{
+        color:black;
+    }
+
+}
+  

@@ -1,0 +1,119 @@
+
+/* Главный Баннер
+######################################################################################################################### */
+.banner{
+  @media (min-width: 768px) {
+      // min-height: 380px;
+  }
+  @media (min-width: 992px) {
+      // min-height: 470px;
+  }
+  @media (min-width: 1200px) { 
+      // min-height: 550px;
+  }
+  @media (min-width: 1400px) {
+      // min-height: 590px;
+  }
+  background: rgb(248,248,250);
+  background: radial-gradient(circle, rgba(248,248,250,1) 0%, rgba(192,194,195,1) 100%);
+  // min-height: 500px;
+
+  &__row{
+      @media (min-width: 576px) {
+        padding: 100px 0 100px 0;
+      }
+      padding: 70px 0 60px 0;
+      @media (min-width: 768px) {
+          padding: 70px 0 70px 0;
+      }
+      @media (min-width: 992px) {
+        padding: 100px 0 70px 0;
+      }
+      @media (min-width: 1200px) { 
+          padding: 120px 0 70px 0;
+      }
+  }
+  &__col{
+      margin-bottom: 16px;
+      @media (min-width: 992px) {
+        margin-bottom: 0;
+      }
+  }
+  
+  &__text-wrapper h1{
+      max-width: 540px
+  }
+  &__text-wrapper p{
+      max-width: 540px
+  }
+  &__text{
+      font-size: 14px;
+      @media (min-width: 576px) {
+        font-size: 18px;
+      }
+      @media (min-width: 992px) {
+          font-size: 20px;
+      }
+      @media (min-width: 768px) {
+          font-size: 15px;
+      }
+  }
+  &__highlight{
+      font-size: 22px;
+      background-color: var(--primary-color);
+      @media (min-width: 576px) {
+        font-size: 33px;
+      }
+      @media (min-width: 768px) {
+          font-size: 22px;
+      }
+  }
+  &__text-transition{
+    font-size: 30px;
+    @media (min-width: 576px) {
+      font-size: 40px;
+    }
+  }
+  &__highlighter{
+    font-size: 22px;
+    @media (min-width: 576px) {
+      font-size: 22px;
+    }
+  }
+  &_img{
+    padding-top: 150px;
+  }
+  &__img{
+      display: none;
+      @media (min-width: 576px) {
+        display: block;
+      }
+    }
+  &__img-xs{
+      @media (min-width: 425px) {
+        display: none;
+      }
+    }
+  &__img-md{
+      display: none;
+      @media (min-width: 425px) {
+        display: block;
+      }
+      @media (min-width: 576px) {
+        display: none;
+      }
+  }
+  &_img{
+      @media screen and (max-width: 576px) {
+        padding-top: 40px;
+      }
+  }
+  &__hidden-title{
+    display: none!important;
+    @media (min-width: 576px) {
+      display: inline;
+    }
+}
+}
+
+
