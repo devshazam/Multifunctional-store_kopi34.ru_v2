@@ -1,4 +1,4 @@
-## kopi34.ru - this is a super functional store with dynamic formation of products
+## This is a super functional store with dynamic formation of products
 ## NOTE: THIS PUBLIC VERSION HAS LIMITATIONS - SO SOME FILES HAVE BEEN REMOVED OR CUT OFF (IN THESE PLACES YOU WILL SEE A REMINDER). Please be understanding
 
 ### Main Features

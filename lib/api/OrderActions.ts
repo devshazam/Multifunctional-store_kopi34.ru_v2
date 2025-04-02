@@ -78,7 +78,7 @@ export async function putGoodsToCard( formData: FormData ) {
 			if (files[x] instanceof File) {
 				const extension = (files[x] as File).type.split('/')[1];
 				console.log(extension)
-				const Key = `kopi34-new/${uuidv4()}.${extension}`;
+				const Key = `new/${uuidv4()}.${extension}`;
 				// const Body = (await (files[x] as File).arrayBuffer()) as Buffer;
 				const Body = Buffer.from(await (files[x] as File).arrayBuffer());
 				const data = await s3.send(new PutObjectCommand({ Bucket, Key, Body }));
@@ -340,9 +340,9 @@ export async function getPayUrl(value: number, orderList: number[]) {
 			// "payment_method_data": { "type": 'bank_card' },
 			confirmation: {
 				type: "redirect",
-				return_url: "https://kopi34.ru/admin",
+				return_url: "https://",
 			},
-			description: "Оплата на сайте kopi34.ru",
+			description: "Оплата на сайте",
 			// metadata: { order_id: order.id, },
 		};
 	try{

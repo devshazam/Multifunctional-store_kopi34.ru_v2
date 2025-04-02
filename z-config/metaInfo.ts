@@ -1,6 +1,6 @@
 import { SiteConfig, ContactConfig } from "@/w-types"
 
-const baseUrl = "https://kopi34.ru"
+const baseUrl = "https://"
 
 export const siteConfig: SiteConfig = {
   name: "Полиграфия в Волгограде | Низкие цены, высокое качество!",
